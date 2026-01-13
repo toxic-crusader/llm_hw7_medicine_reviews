@@ -6,6 +6,7 @@ dependencies = [
     "accelerate>=1.12.0",
     "datasets>=4.4.2",
     "ipython>=9.9.0",
+    "ipywidgets>=8.1.8",
     "kagglehub>=0.4.0",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
