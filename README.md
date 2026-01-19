@@ -1,5 +1,24 @@
 # Домашнее задание №7: Анализ отзывов на лекарства
 
+Проект подготовлен с использованием [uv](https://github.com/astral-sh/uv) — быстрого менеджера зависимостей и виртуальных окружений от Astral.
+
+## Быстрый старт
+
+```bash
+# Установка uv
+curl -Ls https://astral.sh/uv/install.sh | bash
+
+# Клонирование проекта
+git clone git clone git@github.com:toxic-crusader/llm_hw7_medicine_reviews.git
+cd llm_hw7_medicine_reviews
+
+# Создание виртуального окружения и установка зависимостей
+uv venv
+uv sync
+```
+
+> Если используешь ноутбук: открой `hw7_medicine_reviews.ipynb` в Google Colab или локально.
+
 ## Данные
 
 Ссылка на датасет: [kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018](https://www.kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018)
